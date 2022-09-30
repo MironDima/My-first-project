@@ -7,7 +7,7 @@
     <title>Моя собака</title>
 </head>
 <body>
-    <h1>Моя собака-Хаски</h1>
+    <h1 style="color:red;">Моя собака-Хаски</h1>
     <h3>Содеражание</h3>
         <ol>
         <li><a href="#https://www.histoty.com">История происхождения породы</a></li>
@@ -49,8 +49,8 @@
             Хаски дружелюбные, приветливые, преданные и совсем не агрессивные. 
             Отлично уживаются с другими домашними питомцами. Подходят для семей с детьми.
             Благодаря особенной чистоплотности могут жить даже с аллергиками.</p>     
-    
-     <h2 id="https://www.different.com">Разновидность породы</h2>     
+            
+     <h2 id="https://www.different.com">Разновидность породы</h2><!--Создание упороядочных элементов-->     
         <p>В настоящее время в породе выделяют 3 основных направления:</p>
         <ul>
             <li>Рабочие</li>
@@ -70,15 +70,63 @@
             Отличаются более высокой скоростью, но меньшей выносливостью на длительных расстояниях. 
             Могут иметь в родословной примеси гончих и борзых пород, несколько другой экстерьер.
              Заводчики работают над улучшением внешних данных.</p>
-     <h2 id="https://www.plus and minus.com">Плюсы и минусы породы</h2> 
+
+     <h2 id="https://www.plus and minus.com">Плюсы и минусы породы</h2> <!--Создание фото-ссылки-->
         <a href="https://myslide.ru/documents_7/a1d827cf25ea7bc54d3908d37ffa0da5/img15.jpg">
         <img src="https://myslide.ru/documents_7/a1d827cf25ea7bc54d3908d37ffa0da5/img15.jpg"  width="500" height="350" alt="Плюсы и минусы"></a> <br>
-
+            <!--Создания  ползунков(научиться,правильно оформлять)-->
             <br>
-            <h4>Агрессивность</h4>
-            <input type="range" min="2" max="10" step="1" value="1">    
-            <p>gree</p>
-            <p>new line</p>
+            <ul><li><h4>Агрессивность</h4></li></ul>
+            <br><em>(не агрессивная)</em><br>
+            <input type="range" min="2" max="0" step="1" value="min" Autocomplete><p>(Рейтинг 1 из 5)</p>   
+            <br>
+            <ul><li><h4>Линька</h4></li></ul>
+            <br><em>(очень высокая)</em><br>
+            <input type="range" min="0" max="5" step="1" value="max" Autocomplete><p>(Рейтинг 5 из 5)</p>
+            <ul><li><h4>Интеллект</h4></li></ul>
+            <br><em>(Умная)</em><br>
+            <input type="range" min="0" max="5" step="1" value="5"><p>(Рейтинг 4 из 5)</p>
+            <ul><li><h4>Активность</h4></li></ul>
+            <br><em>(очень высокая)</em><br>
+            <input type="range" min="0" max="5" step="1" value="5"><p>(Рейтинг 5 из 5)</p>
+            <ul><li><h4>Потребность в уходе</h4></li></ul>
+            <br><em>(высокая)</em><br>
+            <input type="range" min="0" max="5" step="1" value="5"><p>(Рейтинг 5 из 5)</p>
+            <ul><li><h4>Дружелюбность</h4></li></ul>
+            <br><em>(Дружелюбная)</em><br>
+            <input type="range" min="0" max="4" step="1" value="5"><p>(Рейтинг 4 из 5)</p>
+            <ul><li><h4>Дрессировка</h4></li></ul>
+            <br><em>(Сложно)</em><br>
+            <input type="range" min="0" max="2" step="1" value="2"><p>(Рейтинг 2 из 5)</p>
+            <ul><li><h4>Стоимость содержания</h4></li></ul>
+            <em>(Выше среднего)</em><br>
+            <input type="range" min="0" max="4" step="1" value="4"><p>(Рейтинг 4 из 5)</p>
+            
+            <!-- <P>Создание формы</p> -->
+    <h2>Опрос</h2>
+            <p><b>Как зовут вашу собаку?</b><br>   
+            <input type="text" placeholder="Имя" size="30" required></p>
+            <p><b>Сколько лет вашей  собаке?</b><br>
+            <input type="date"  size="30"required></p>  
+            <!--Создание набора флажков-->
+            <p><b>Какого цвета глаза?</b><br>
+            <form> <label for="Синие">
+                <input id="Синие" type="checkbox" name="Синие" value="Синие" required>Синие</label>
+                <br><label for="Голубые">
+                    <input id="Голубые" type="checkbox" name="Голубые" value="Голубые">Голубые</label>
+                    <br><label for="черные">
+                        <input id="черные" type="checkbox" name="черные" value="черные">черные</label><br>
+                        <form action="https://mail.ru/">
+                        <button type="submit">Отправить</button><!--Создание кнопки-->
+                    </form>  
+                              
+
+
+            
+            
+
+            
+    
             
 
 </body>
